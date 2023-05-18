@@ -125,9 +125,10 @@
    
 }
 .text-center{
-    margin-right: 170px;
+    margin-right: 0px;
     display: flex;
-    column-gap: 140px;
+    column-gap: 130px;
+    margin-top: 10px;
 }
 .col{
     display: flex;
@@ -140,7 +141,7 @@
 .p-s3-cards{
     font-style: normal;
 font-weight: 800;
-font-size: 18px;
+font-size: 16px;
     line-height: 21px;
 color: #333333;
 }

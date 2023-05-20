@@ -1,613 +1,667 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/imgs/style.css">
-  </head>
- 
-    <!-- site header -->
-    <header class="header bg-gradient-to-r from-[#095ACD] to-[#006AFF]">
-      <nav
-        class="mx-auto flex max-w-7xl items-center justify-around p-6 lg:px-8"
-        aria-label="Global"
-      >
-        <div class="flex">
-          <a href="https://youtube.com/shorts/oAoKVav1eBg?feature=share" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            <p class="font-semibold text-4xl text-[#fff]">Pressa</p>
-          </a>
-        </div>
-        <div class="flex lg:hidden items-center">
-          <button
-            type="button"
-            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="hidden items-center lg:flex lg:gap-x-12">
-        
-          
-            
-          <input type="text"
-              class="input-s1 bg-[#ffffff1a] rounded-[5px] px-[18px] py-[10px] font-normal text-[14px] outline-none text-white"
-            type="text"
-            placeholder="Izlash">
-            
-          <a href="https://youtu.be/9J0yG5AB0qM" class="text-sm font-semibold leading-6 text-white"
-            >Biz haqimizda</a
-          >
-          <a href="https://youtu.be/_S7WEVLbQ-Y" class="text-sm font-semibold leading-6 text-white"
-            >Savol va javoblar</a
-          >
-          <a
-            href="https://youtu.be/hiEM5rkx1XA"
-            class="text-white font-semibold px-[20px] py-[15px] bg-[#FE8B37]"
-            >+ E’lon berish</a
-          >
-        </div>
-      </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-      <div class="lg:hidden" role="dialog" aria-modal="true">
-        <!-- Background backdrop, show/hide based on slide-over state. -->
-        <div class="fixed inset-0 z-10"></div>
-        <div
-          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
-        >
-          <div class="flex items-center justify-center">
-            <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              <img
-                class="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
-            </a>
-            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-              <span class="sr-only">Close menu</span>
-              <svg
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
-          <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
-              <div class="space-y-2 py-6">
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Features</a
-                >
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Marketplace</a
-                >
-                <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Company</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<!-- site header -->
+<header class="header  bg-gradient-to-r from-[#095ACD] to-[#006AFF] ">
+  <nav class="mx-auto flex max-w-7xl items-center justify-around p-6 lg:px-8" aria-label="Global ">
+    <div class="flex ">
+      <a href="https://youtube.com/shorts/oAoKVav1eBg?feature=share" class="-m-1.5 p-1.5">
+        <span class="sr-only">Your Company</span>
+        <p class="font-semibold text-4xl text-[#fff]">Pressa</p>
+      </a>
+    </div>
+    <div class="flex lg:hidden items-center">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+    <div class="hidden items-center lg:flex lg:gap-x-12">
+
+
+
+      <input type="text"
+        class="input-s1 bg-[#ffffff1a] rounded-[5px] px-[18px] py-[10px] font-normal text-[14px] outline-none text-white"
+        type="text" placeholder="Izlash">
+
+      <a href="https://youtu.be/9J0yG5AB0qM" class="text-sm font-semibold leading-6 text-white">Biz haqimizda</a>
+      <a href="https://youtu.be/_S7WEVLbQ-Y" class="text-sm font-semibold leading-6 text-white">Savol va javoblar</a>
+      <a href="https://youtu.be/hiEM5rkx1XA" class="text-white font-semibold px-[20px] py-[15px] bg-[#FE8B37]">+ E’lon
+        berish</a>
+    </div>
+  </nav>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div class="lg:hidden" role="dialog" aria-modal="true">
+    <!-- Background backdrop, show/hide based on slide-over state. -->
+    <div class="fixed inset-0 z-10"></div>
+
+    <div
+      class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div class="flex items-center justify-center">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+        </a>
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
       </div>
-      <div class="s2-ov container">
-  <div class="h2-s2">
-    <h2 class="h1-s2-ova">Eng so’ngi master klasslar va tadbirlar bizning saytda</h2>
-  </div>
-  <div class="div-s2-data">
-    <ul class="ul-list-12">
-      <li class="li-list-12"><div class="div-li-list-12">
-        <img src="/imgs/Vector (1).svg" alt="12">
-        <div class="divchik-12">
-          <p class="p-li-list-12">22 / 02 / 2022    </p>
-        </div>
-      </div></li>
-      <li class="li-list-12"><div class="div-li-list-12">
-        <img src="./imgs/Vector (2).svg " alt="12">
-        <div class="divchik-12">
-          <p class="p-li-list-12">Bo’lim tanlang     </p>
-        </div></li>
-      <li class="li-list-12"><div class="div-li-list-12">
-        <img src="./imgs/Vector (3).svg" alt="12">
-        <div class="divchik-12">
-          <p class="p-li-list-12">Online / Offline     </p>
-        </div></li>
-      <li class="li-list-12"><div class="div-li-list-12">
-        <img src="/imgs/Vector (4).svg" alt="12">
-        <div class="divchik-12">
-          <p class="p-li-list-12"> Ism familya      </p>
-        </div></li>
-      <li class="li-list-12">
-        <div class="div-li-list-12-2">
-          <p class="p-li-list-12-2">
-            Izlash
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-      </div>
-  </header>
-  <section class="s3">
-    <div class="container s3-ova">
-      <div class="h4-s3-ova"><p>Oxirgi e’lonlar</p></div>
-      <div class="div-s3-ul">
-        <ul class="ul-list-s3">
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Alisher Isaevdan biznes va IT bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg " alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27 (1).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg " alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27 (2).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Yuksalish loyihasi AQSHda ovozli suhbat</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-        </ul>
-        <ul class="ul-list-s3">
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27 (4).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Sadoqat Kaziyevadan UI/UX bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Alisher Isaevdan biznes va IT bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27 (1).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-        </ul>
-        <ul class="ul-list-s3">
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Alisher Isaevdan biznes va IT bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27 (1).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards ">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div> 
-            </div>
-          </div></li>
-          <li class="li-list-s3"><div class="card" style="width: 18rem;">
-            <img src="/imgs/Rectangle 27 (2).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Yuksalish loyihasi AQSHda ovozli suhbat</p>
-            </div>
-            <div class=" text-center">
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Alisher Isaev</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">17 / 01 / 2022</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">Online</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col">
-                <div class="s3-card-div">
-                  <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
-                  <p class="p-s3-cards">Tadbirkor</p>
-                </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">15:00</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="s3-card-div">
-                    <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
-                    <p class="p-s3-cards">2550</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></li>
-        </ul>
-        <div class="button-s3 mt-[120]">
-          <button class="bg-sky-500/100 text-white p-[20px]
-          rounded-12 mt-120px">Save Changes</button>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
+            <a href="#"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  </body>
+  </div>
+  <div class="s2-ov container">
+    <style>
+      .container {
+
+        margin: auto;
+        max-width: 1540px;
+
+      }
+
+      .div-s2-oov {
+        column-gap: 1px;
+      }
+
+      .example-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+      }
+      .example-text-2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+        background-image: url(/imgs/Vector\ \(2\).svg);
+        background-repeat: no-repeat;
+        background-position: 8% 50%;
+      }
+      .example-text-3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+        background-image: url(/imgs/Vector\ \(3\).svg);
+        background-repeat: no-repeat;
+        background-position: 8% 50%;
+      }
+      .div-s3-izlash{
+        background: #006AFF;
+border-radius: 0px 10px 10px 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color:#FFFFFF;
+padding: 45px;
+      }
+      .p-s3-elonlar{
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+
+      }
+    </style>
+    <div class="h2-s2 w-100 mx-auto ">
+      <h2 class=" h1-s2-ova text-white text-5xl font-semibold ml-[100px] w-[1120px] mt-[120px] text-center">Eng so’ngi
+        master klasslar va tadbirlar
+        bizning saytda</h2>
+
+    </div>
+    <div class="div-s2-oov ">
+      <input type="date"
+        class="example-text bg-gray-50 text-[#333333] p-[45px] text-1xl  rounded-lg shadow-[0_7px_15px_rgba(0,0,0,0.1)]"
+        value="2022-02-22">
+
+      <select
+        class="form-select form-select-sm example-text-2 bg-gray-50 text-[#333333] p-[45px] text-1xl mt-[120px] rounded-lg shadow-[0_7px_15px_rgba(0,0,0,0.1)] w-180"
+        aria-label=".form-select-sm example">
+        <option selected>
+          <div class="diiv-olol">
+            <img src="/imgs/Vector (2).svg" alt="dd">
+            <div class="div-olol-2"> Nazim top?
+
+            </div>
+          </div>  
+        </option>
+        <option value="1">Da</option>
+        <option value="2">Net</option>
+        <option value="3">Chego?</option>
+      </select>
+      <select
+      class="form-select form-select-sm example-text-3 bg-gray-50 text-[#333333] p-[45px] text-1xl mt-[120px] rounded-lg shadow-[0_7px_15px_rgba(0,0,0,0.1)] w-180"
+      aria-label=".form-select-sm example">
+      <option selected>
+        <div class="diiv-olol">
+          <img src="/imgs/Vector (2).svg" alt="dd">
+          <div class="div-olol-2"> Online / Offline
+
+          </div>
+        </div>  
+      </option>
+      <option value="1">Пожалуйста</option>
+      <option value="2">не ставьте 3,</option>
+      <option value="3">молю вас 😢:-(</option>
+    </select>
+    <select
+  class="form-select form-select-sm example-text-3 bg-gray-50 text-[#333333] p-[45px] text-1xl mt-[120px] rounded-lg shadow-[0_7px_15px_rgba(0,0,0,0.1)] w-180"
+  aria-label=".form-select-sm example">
+  <option selected>
+    <div class="diiv-olol">
+      <img src="/imgs/Vector (2).svg" alt="dd">
+      <div class="div-olol-2"> Ism familya
+
+      </div>
+    </div>  
+  </option>
+  <option value="1">Ок,не поставлю</option>
+  <option value="2">Поставлю 3</option>
+  <option value="3">....</option>
+</select>
+    <select
+    class="div-s3-izlash"
+    aria-label=".form-select-sm example">
+    <option selected>
+      <div class="diiv-olol">
+        <img src="/imgs/Vector (2).svg" alt="dd">
+        <div class="div-olol-2"> Izlash
+
+        </div>
+      </div>  
+    </option>
+    <option value="1">Yulduzlar</option>
+    <option value="2">Konsertlar</option>
+    <option value="3">INGLIZ TILI</option>
+  </select>
+
+
+    </div>
+
+
+</header>
+<p class="p-s3-elonlar mt-[120px] text-center mr-[1400px]">Oxirgi e’lonlar</p>
+<section class="s4-main container mt-[-120px]">
+<div class="div-card-list">
+  <div class="div-s3-ul  gap-100">
+    <ul class="ul-list-s3 flex gap-100">
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Alisher Isaevdan biznes va IT bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg " alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg " alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27 (2).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Yuksalish loyihasi AQSHda ovozli suhbat</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+    </ul>
+    <ul class="ul-list-s3 flex gap-100">
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27 (4).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Sadoqat Kaziyevadan UI/UX bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Alisher Isaevdan biznes va IT bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+    </ul>
+    <ul class="ul-list-s3 flex gap-100">
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Alisher Isaevdan biznes va IT bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards ">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div></li>
+      <li class="li-list-s3"><div class="card" style="width: 18rem;">
+        <img src="/imgs/Rectangle 27 (2).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text card-title  not-italic font-semibold text-2xl leading-8 text-gray-800">Yuksalish loyihasi AQSHda ovozli suhbat</p>
+        </div>
+        <div class=" text-center">
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (5).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Alisher Isaev</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (6).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">17 / 01 / 2022</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (7).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">Online</p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col">
+            <div class="s3-card-div">
+              <img src="/imgs/Vector (8).svg" alt="img" class="img-s3-card">
+              <p class="p-s3-cards">Tadbirkor</p>
+            </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (9).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">15:00</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="s3-card-div">
+                <img src="/imgs/Vector (10).svg" alt="img" class="img-s3-card">
+                <p class="p-s3-cards">2550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></li>
+    </ul>
+    <div class="button-s3 mt-[120]">
+      <button class="bg-sky-500/100 text-white p-[20px]
+      rounded-12 mt-120px">Save Changes</button>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+</body>
+
 </html>
